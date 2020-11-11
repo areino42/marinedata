@@ -14,10 +14,7 @@ library(RCurl)
 #-----------------------------> DATA ------------------------------------>
 
 
-
 #data <- read_csv("ships_data/ships.csv")
-web <- getURL("https://raw.github.com/aronlindberg/latent_growth_classes/master/LGC_data.csv")
-data  <- read.csv(text = web)
 
 
 #--------------------------> SHIP TYPES --------------------------------->
